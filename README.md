@@ -169,19 +169,7 @@ A página apresenta todos os atores e atrizes cadastrados em um grid de cards.
 
 Ao digitar um nome no campo de pesquisa, os resultados são filtrados automaticamente.
 
----
 
-## 📸 Screenshots
-
-Adicione aqui os dois snapshots solicitados no CheckPoint:
-
-### Página inicial
-
-> `screenshots/inicio.png`
-
-### Filtro aplicado
-
-> `screenshots/filtro.png`
 
 ---
 
