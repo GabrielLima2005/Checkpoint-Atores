@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinePeople | Atores & Atrizes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-icon">✦</span>
+                <span>Cine<span>People</span></span>
+            </div>
+            <div class="nav-tag">CHECKPOINT 02</div>
+        </nav>
+
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="eyebrow">CATÁLOGO DE TALENTOS</span>
+                <h1>Conheça os rostos<br><span>do cinema.</span></h1>
+                <p>Explore atores e atrizes de diferentes países em uma experiência rápida e intuitiva.</p>
+            </div>
+            <div class="hero-decoration">
+                <div class="circle circle-one"></div>
+                <div class="circle circle-two"></div>
+                <span>★</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="search-section">
+            <div class="search-heading">
+                <div>
+                    <span class="section-label">EXPLORAR</span>
+                    <h2>Encontre seu ator favorito</h2>
+                </div>
+                <div class="result-count">
+                    <strong id="contador">0</strong>
+                    <span>resultados</span>
+                </div>
+            </div>
+
+            <div class="search-box">
+                <span class="search-icon">⌕</span>
+                <input
+                    type="text"
+                    id="campoBusca"
+                    placeholder="Digite o nome do ator ou atriz..."
+                    oninput="filtrarAtores()"
+                    autocomplete="off"
+                >
+                <span class="search-hint">BUSCAR</span>
+            </div>
+        </section>
+
+        <section>
+            <div id="gridAtores" class="grid"></div>
+            <div id="mensagem" class="mensagem"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-logo">Cine<span>People</span></div>
+        <p>Catálogo de atores e atrizes • CheckPoint 02</p>
+    </footer>
+
+    <script src="dados.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
